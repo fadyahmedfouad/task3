@@ -25,28 +25,7 @@ class _HomeNavBarState extends State<HomeNavBar>{
         ),
 
         body:_screens[current_index],
-      // ,child:SafeArea(
-      //       child: GridView.builder(
-      //         padding: const EdgeInsets.all(10),
-      //         gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-      //           crossAxisCount: 2,
-      //           crossAxisSpacing: 10,
-      //           mainAxisSpacing: 10,
-      //         ),
-      //        itemBuilder: (context, index) {
-      //           return Container(
-      //               clipBehavior: Clip.hardEdge,
-      //               decoration: BoxDecoration(
-      //                 color: Colors.blue,
-      //                 borderRadius: BorderRadius.circular(15),
-      //               ),
-      //               child: const Image(
-      //                   image: AssetImage('assets/OIP (1).jpg'), fit: BoxFit.fill
-      //               ) //   style: TextStyle(color: Colors.white),
-      //           );
-      //         },
-      //       )
-      //   ),
+      
       bottomNavigationBar: BottomNavigationBar(
       currentIndex:current_index,
       onTap:(int index){
